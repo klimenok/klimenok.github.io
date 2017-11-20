@@ -1,0 +1,465 @@
+@import "bourbon/bourbon"
+$text-color:#333333
+$dark-color:#000
+$red-color: #9b1818
+$blue-color: #003469
+$green-color: #67bc5c
+
+
+body
+	font-family: "RobotoRegular", sans-serif
+	font-weight: normal
+	color:$text-color
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialised
+	overflow-x:hidden
+	
+
+h1
+	color:#fff
+	font-size: 60px
+	line-height:56px
+	font-weight:bold
+	font-family: 'CleanvertisingLight', sans-serif
+	margin:0
+h2
+	color:#fff
+	font-size: 60px
+	line-height:56px
+	font-weight:normal
+	font-family: 'CleanvertisingLight', sans-serif
+	margin:0
+	text-align:center
+section
+	padding:20px 0 40px
+section.s_dark h2,h3,p
+	color:#fff
+
+header
+	min-height:640px
+	background-image:url(../img/top_bg.jpg)
+	background-position: top center
+	background-size:cover
+	color:#fff
+	padding-top:32px
+	padding-bottom:40px
+
+.logo
+	font-size: 40px
+	font-family:"RobotoBold", sans-serif
+	font-weight: bold;
+
+.top_phone
+	text-align:right
+.tab_item
+	display: none
+.tab_item:first-child
+	display: block	
+
+
+.top_phone .wrapper .tab
+	text-transform:uppercase
+	font-size: 16px
+	cursor: pointer
+.top_phone .wrapper .active
+	text-decoration:underline
+.top_phone .tab_item
+	display: none
+	font-size: 34px
+	font-family:"RobotoBold", sans-serif
+
+.top_phone .tab_item:first-child
+	display: block
+	
+
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none;
+
+.top_header
+	margin-top: 70px
+
+.top_header h2	
+	margin:15px 0 0
+	font-family: 'CleanvertisingLight', sans-serif
+	font-size: 36px
+	text-align: left
+
+.tabs_header
+	margin-top:50px
+		
+
+	
+
+.tabs_header span
+	display: inline-block 
+	background-color: rgba(255,255,255,.25)
+	padding:15px 18px
+	text-transform: uppercase
+	cursor: pointer
+	float: left
+	font-family:"RobotoBold", sans-serif
+	+transition(all .25s ease)
+	&.active
+	 background-color: rgba(255,255,255,.6)
+	 color:#000
+
+.tabs_header .tab_content
+	background-color: rgba(255,255,255,.6)
+	padding:12px 18px 16px
+	color:#000
+	text-transform:uppercase
+	font-family:"RobotoBold", sans-serif
+
+.tabs_header ul li 
+	list-style-type: none
+	margin:0
+	padding:0
+	padding-left: 40px
+	position: relative
+	margin-bottom:12px
+	font-family:"RobotoBold", sans-serif
+	
+.tabs_header i
+	position: absolute
+	left:0
+	top:0
+	line-height:26px
+	font-size: 26px
+	color:#6f6a67
+.button
+	border:none
+	cursor: pointer
+	display: inline-block
+	height: 46px
+	line-height 46px
+	padding: 10px 32px
+	background-color:$red-color
+	text-transform:uppercase
+	text-align:center
+	color:#fff
+	border-radius:3px
+	font-size: 16px
+	font-family: "RobotoBold", sans-serif
+.button_wrap
+	text-align:right
+	
+a.button
+	text-decoration:none
+	color:#fff
+.s_tizers
+	+linear-gradient(#c6d8ee,#e8eff7)
+	color:$blue-color
+	font-family: 'CleanvertisingLight', sans-serif
+
+.s_tizers span
+   font-size: 14px
+   display: block;
+   text-transform:uppercase
+   
+
+.s_tizers strong
+	font-weight:normal
+	font-size: 23px
+	line-height:24px
+	display: block;
+	text-transform:uppercase
+.tiz_img,.tiz_descr
+	display: inline-block
+	vertical-align:bottom
+	padding:35px 0 
+
+.tiz_img .my-img
+	font-family: "RobotoRegular", sans-serif
+	font-style:normal
+	letter-spacing:-12px
+	margin-right:20px
+.tiz_descr
+	padding:0
+.tiz_img
+	padding:0
+.tiz_img i
+	font-size: 70px
+	line-height:70px
+	margin-right:10px
+
+.s_tizer,img 
+	vertical-align: bottom
+	margin-top: 16px
+	margin-right:10px
+
+.s_tizers .row > div:nth-child(1) i
+	position: relative
+	bottom:-11px	
+
+.s_tizers .row > div:nth-child(2) i
+	position: relative
+	bottom:-5px	
+
+.s_tizers .row > div:nth-child(3) i
+	position: relative
+	bottom:-5px	
+.s_tizers .row > div:nth-child(1) strong
+	line-height:10px
+.s_tizers .row > div:nth-child(1) span
+	line-height:40px
+
+.profi h2
+	color:$blue-color
+	font-size: 50px
+	margin: 30px 0 70px
+p strong
+	font-family:"RobotoBold", sans-serif
+	font-weight:normal
+.profi_item
+	display: flex;
+	flex-wrap: nowrap;
+
+.profi_right h3
+	color:$red-color
+	font-size: 30px;
+	margin: 0px;
+	padding: 0px;
+
+.profi_right p
+	color:$text-color
+	margin:0px
+	font-family: "RobotoRegular", sans-serif
+	
+
+
+.profi_left i
+	font-size:100px
+	color:$red-color
+	
+.profi_right 
+	margin-left: 27px
+	margin-top: 23px
+
+form
+	background-color:#f7f7f7
+	padding:25px 30px
+	border:$green-color solid 5px
+	border-radius:5px
+
+form h3
+	color: $text-color
+	text-transform:uppercase
+	font-size: 22px
+	font-family:"RobotoRegular", sans-serif
+	text-align:center
+	line-height:22px
+label
+	display: block
+	margin-bottom:15px
+	color:#666
+	font-size: 14px
+input , select
+	display: block
+	line-height:40px
+	height:40px
+	border:#d9d9d9 solid 1px
+	box-shadow: 0 0 20px rgba(0,0,0,.06)inset
+	width:100%
+	text-indent:10px;
+	&:focus
+	 box-shadow:$green-color 0 0 0 2px
+	 border-radius:3px
+	 border-color:$green-color
+	 font-size: 20px
+.btn_green
+	color:#fff
+	background-color:$green-color
+	border: none
+	cursor: pointer
+	display: inline-block
+	height: 46px
+	padding: 10px 32px
+	text-transform: uppercase
+	text-align: center
+	color: #fff
+	border-radius: 3px
+	font-size: 16px
+	font-family: "RobotoBold", sans-serif
+a.btn_green
+	text-decoration: none
+	color: #fff
+form .button_wrap
+	text-align:center		
+	margin:30px 0 10px
+
+.s_rewview
+	background-image: url(../img/middle_bg.jpg)
+	background-attachment: fixed
+	background-size:cover
+	background-repeat:repeat-x
+	background-position:center
+	min-height:500px
+	background-color:#412521
+	
+.review_item
+	color:#fff
+	text-align:center
+	h4
+	 font-family:"Times New Roman",serif
+	 font-style:italic
+	 font-size: 22px
+	 font-weight: normal
+	 margin-top:20px
+	 margin-bottom:20px
+	p
+	  margin: 25px auto
+	  font-size: 15px
+	  float: none
+.image_wrap
+	text-align:center
+.image_wrap img
+	width:165px
+	height:165px
+	display:inline-block
+	border-radius:50%
+	border:solid 10px #585a5b
+.hr
+	width:80px
+	height:1px
+	background-color:#cea380
+	margin:auto
+.owl-nav
+	div
+	 width:34px
+	 height:140px
+	 background-image: url(../img/s_arows.png)
+	 top:20px
+	 position: absolute
+	 opacity: .6
+	 &:hover
+	  opacity:1
+	 &.owl-next
+	  right:0
+	  background-position:top right
+
+.owl-dots
+	width:100%
+	margin-top:30px
+	text-align:center
+	.owl-dot
+	  width:10px
+	  height:10px
+	  background-color:#fff
+	  display:inline-block
+	  margin:0 5px
+	  border-radius:50%
+	  opacity:.5
+	  &.active
+	   opacity:.8
+.flag
+	background-image:url(../img/red_bg.jpg)
+	background-position:top, center
+	.flag_title
+	  text-align:center
+	  h2
+	   margin-top:15px	
+	   text-transform:uppercase
+	   color:#fff
+	   font-size: 20px
+	   font-family:"Times New Roman",serif
+	   line-height: 31px
+	   background-color:rgba(255,255,255,0.2)
+	   padding:5px
+.flag_button
+	text-align:center
+	margin-top:30px
+	a
+	 color:#000
+	.btn_white
+	 background-color:#fff
+.find_wrapper
+	text-align:center
+	.tabs
+	 display: inline-block
+	 height:45px
+	 line-height:45px
+	 vertical-align:middle
+	 margin-left:20px
+	 .btn_red
+	  display: inline
+	h4
+	 height: 53px
+	 line-height: 15px
+	 vertical-align:middle
+	 text-transform:uppercase
+	 display: inline-block
+	 margin-bottom:0
+	 color:$text-color
+	 font-size: 30px
+	 font-family:"RobotoRegular",serif
+
+.taba 
+	float: left
+	padding:0 60px
+	background-color:#fff
+	color:$red-color
+	border:$red-color solid 5px
+	line-height:38px
+	&:first-child
+	 border-radius:3px 0px 0px 3px
+	 &.active
+	  background-color:$red-color
+	  color:#fff
+	&:last-child
+	 border-radius:0px 0px 0px 0px
+	 &.active
+	   background-color:$red-color
+	   color:#fff	  
+
+.find_tab 
+	margin-top: 25px
+.map
+	margin-top:20px
+	min-height:480px
+	background-color:#e1d6b0
+
+footer
+	padding:58px 0 68px
+	h2
+	 color:#000 
+	 margin-bottom:30px
+footer p
+	color:#000
+	text-align:center
+	font-size: 18px
+.bottom_phone
+	text-align:center
+	cursor: pointer
+	color:$red-color
+	margin-top:60px
+.bottom_phone .wrapper .tab
+	text-transform:uppercase
+	font-size: 16px
+	cursor: pointer
+.bottom_phone .wrapper .active
+	text-decoration:underline
+.bottom_phone .tab_item
+	display: none
+	font-size: 34px
+	font-family:"RobotoBold", sans-serif
+
+.bottom_phone .tab_item:first-child
+	display: block
+footer .button_wrap
+	margin-top:30px
+	text-align:center
+#hidden_form 
+	max-width:420px 
+	margin:auto
+	position: relative
