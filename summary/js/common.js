@@ -27,5 +27,18 @@ $(document).ready(function () {
 		}
 	 },
 	 navText: ""
-	});
+    });
+
+    $(window).load(function() {
+        $(".title_text").animated("fadeInDown", "fadeOut");
+        $(".top_header h2").animated("fadeInUp", "fadeOut");
+        $(".tabs_header ").animated("flipInY", "fadeOut");
+        $(".profi_item ").animated("fadeInRight", "fadeOut");
+        $("form ").animated("lightSpeedIn", "fadeOut");
+        $(".flag_title ").animated("fadeInRight", "fadeOut");
+        $(".flag_button ").animated("fadeInRight", "fadeOut");
+    //	$(".find_wrapper ").animated("fadeInLeft", "fadeOut");
+        $("footer ").animated("fadeInUp", "fadeOut");
+    
+    });
 });
