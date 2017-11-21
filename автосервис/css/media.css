@@ -1,0 +1,220 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+ .logo img{
+     display: none;
+ }
+ 
+ .top_line{
+     height: 160px;
+ }
+ .ta_right {
+    background-image: none;
+    padding: none;
+    margin-top: 16px;
+}
+.ta_right span {
+    margin-right: 46px;
+}
+.top_line a {
+    margin-right: 44px;
+}
+header h1{
+    margin-top:16px;
+}
+
+header .button {
+
+    text-align: center;
+    margin-top: -308px;
+    margin-left: 29px;
+
+}
+.button.price {
+    margin-bottom: -71px;
+    margin-left: 95px;
+}
+.top_menu{
+    height: 450px;
+}
+.top_menu li{
+    float: none;
+}
+.waranty{
+    float: none;
+    margin: 0px 148px 0 0px;
+}
+.mc_wrap li {
+    display: block;
+    margin-bottom: 23px;
+}
+.mc_item_wrap:nth-child(1) {
+    margin-left: 62px;
+}.mc_item_wrap:nth-child(2) {
+    margin-left: 62px;
+}.mc_item_wrap:nth-child(3) {
+    margin-left: 62px;
+}.mc_item_wrap:nth-child(4) {
+    margin-left: 62px;
+}.mc_item_wrap:nth-child(5) {
+    margin-left: 62px;
+}.mc_item_wrap:nth-child(6) {
+    margin-left: 62px;
+}
+.work {
+    display: block;
+}
+
+.text img {
+    width: 100%;
+}
+.work1 img {
+    width: 100%;
+}
+.knopka2{
+    margin:0px;
+}
+.last li {
+    display: block;
+}
+footer{
+    height: 280px;
+}
+header{
+
+}
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}
+nav ul{
+    display: none;
+    
+}
+.waranty{
+    display: none;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .menu-icon{
+        display: block;
+    }
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .ta_right{
+        margin-top: -54px;
+        margin-right: -39px;
+    }
+  
+    .logo img {
+        display: block;
+        margin-top: -62px;
+    }
+    .mc_wrap {
+      
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .work {
+        display: flex;
+    }
+    .work1 {
+        display: flex;
+    }
+    .last li {
+        display: inline;
+    }
+    
+    .top_line {
+        height: 90px;
+    }
+    
+    header h1 {
+        margin-top: 80px;
+    }
+    header .button {
+        margin-top: -5px;
+       
+    }
+    .button.price {
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    .knopka2 {
+        margin-left: 153px;
+    }
+ 
+  
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+    .menu-icon{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    .waranty{
+        display: none;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .ta_right {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .logo_wrap {
+      
+        margin-top: 53px;
+    }
+    header{
+        background-image: url(../img/top_bg.jpg);
+    }
+    .menu-icon{
+        display: none;
+    }
+    nav ul{
+        display: block;
+    }
+  
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
