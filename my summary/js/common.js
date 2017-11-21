@@ -1,4 +1,5 @@
 $(document).ready(function () {
+   
 
     $('.menu-icon').click(function () {
         $('nav ul').slideToggle(500);
@@ -29,16 +30,20 @@ $(document).ready(function () {
 	 navText: ""
     });
 
-    $(window).load(function() {
-        $(".title_text").animated("fadeInDown", "fadeOut");
-        $(".top_header h2").animated("fadeInUp", "fadeOut");
-        $(".tabs_header ").animated("flipInY", "fadeOut");
-        $(".profi_item ").animated("fadeInRight", "fadeOut");
-        $("form ").animated("lightSpeedIn", "fadeOut");
-        $(".flag_title ").animated("fadeInRight", "fadeOut");
-        $(".flag_button ").animated("fadeInRight", "fadeOut");
-    //	$(".find_wrapper ").animated("fadeInLeft", "fadeOut");
-        $("footer ").animated("fadeInUp", "fadeOut");
-    
-    });
 });
+$(window).scroll(function() {
+    $('.mov').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass('fadeInRight');
+      }
+    });
+    $('.move').each(function(){
+        var imagePos = $(this).offset().top;
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+400) {
+          $(this).addClass('fadeInDown');
+        }
+      });
+  });

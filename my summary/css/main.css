@@ -5,6 +5,9 @@
   color: #ffffff;
   text-decoration: none;
 }
+body{
+  overflow-x: hidden;
+}
 
 header {
   background-image: url(../img/background.png);
@@ -178,7 +181,7 @@ footer {
 }
 
 footer p {
-  padding: 17px 0 7px;
+  padding: 10px 0 0;
   vertical-align: middle;
 }
 

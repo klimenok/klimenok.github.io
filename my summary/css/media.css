@@ -61,7 +61,13 @@
 .seo{
     width: 100%
 }
-
+.bot{
+    display: none
+}
+.owl-nav div {
+    margin-top: 106px;
+  }
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
